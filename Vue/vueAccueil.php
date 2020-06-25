@@ -11,7 +11,7 @@
       <h2><a href="index.php?action=adherents">Liste des adhérents inscrits</a></h2>
     <?php endif; ?>
 
-    <?php if (in_array('simple_adherent', $_SESSION['statut'])): ?>
+    <?php else: ?>
       <h2><a href="index.php?action=trombinoscope">Trombinoscope</a></h2>
       <h2><a href="index.php?action=annuaire">Annuaire</a></h2>
     <?php endif; ?>
