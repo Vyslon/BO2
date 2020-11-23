@@ -1,5 +1,5 @@
 <?php
-require_once '/Applications/MAMP/htdocs/MISSION2Stage/Modele/Modele.php';
+require_once 'Modele.php';
 
 class Compte extends Modele {
 
